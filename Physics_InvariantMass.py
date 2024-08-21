@@ -5,7 +5,7 @@ import os
 import numpy
 from numpy import genfromtxt
 
-#Queremos agora gerar um gráfico que nos auxilie a identificar uma partícula a partir de um dos processos de decaimento. 
+#Gráfico que nos auxilie a identificar uma partícula a partir de um dos processos de decaimento. 
 #Nesse caso, nós vamos dizer que uma partícula pesada X decaiu em dois múons.
 #X -> u*u
 
