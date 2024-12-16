@@ -1,4 +1,5 @@
-# Physics_InvariantMass
+# physics_invariant_mass
+
 Construction of a Mass and Number of Events Histogram. With several real data!
 
 If you are on Windows, paste the "Tables" folder in C: or change the destination of line 12 and 13.
