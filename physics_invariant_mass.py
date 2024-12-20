@@ -1,9 +1,9 @@
-import matplotlib.pyplot as plt 
-import numpy as np
-import pandas as pd              
+import matplotlib.pyplot as plt # type: ignore
+import numpy as np # type: ignore
+import pandas as pd  # type: ignore            
 import os
-import numpy
-from numpy import genfromtxt
+import numpy # type: ignore
+from numpy import genfromtxt # type: ignore
 
 #Gráfico que nos auxilie a identificar uma partícula a partir de um dos processos de decaimento. 
 #Nesse caso, nós vamos dizer que uma partícula pesada X decaiu em dois múons.
@@ -11,6 +11,9 @@ from numpy import genfromtxt
 
 pasta = "C:\Tabelas"
 ds = pd.read_csv("C:\Tabelas\example_allEvents.csv")
+
+
+
 print(ds.columns)
 
 #Selecionar então os nomes das colunas baseado no passo anterior:
